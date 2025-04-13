@@ -1,0 +1,30 @@
+.app-container {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  /* Устанавливаем ширину на 100% */
+}
+
+.app-header {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  color: rgb(211, 9, 9);
+}
+
+.card-box {
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+  /* Позволяем карточкам переноситься на следующую строку */
+  justify-content: center;
+}
