@@ -1,12 +1,12 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import NodePolyfills from "vite-plugin-node-polyfills";
+import { nodePolyfills } from "vite-plugin-node-polyfills"; // Используем именованный экспорт
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    NodePolyfills({
+    nodePolyfills({
       // Включаем полифиллы для Node.js
       crypto: true,
     }),
