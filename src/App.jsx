@@ -19,7 +19,7 @@ function App() {
               id: row.id,
               title: row.title,
               image: row.image_link,
-              collected: row.collected === 'true', // Преобразуем строку в boolean
+              isCollected: row.isCollected === 'TRUE', // Преобразуем строку в boolean
             }));
             setData(formattedData);
           },
@@ -44,7 +44,7 @@ function App() {
             key={console.id}
             title={console.title}
             image={console.image}
-            collected={console.collected}
+            isCollected={console.isCollected}
           />
         ))}
       </div>
