@@ -3,7 +3,6 @@ import './App.css';
 import Card from './Components/Card';
 import Papa from 'papaparse';
 import axios from 'axios';
-
 const url = `https://docs.google.com/spreadsheets/d/e/2PACX-1vTe_LJ-lD32kI0-wSiTLIEbYYgcWGshVMEB1DgmeeQGJfE3KhMHzGNmW8crHZ7jpRYKqULKIjUXS8-t/pub?gid=0&single=true&output=csv`;
 
 function App() {
